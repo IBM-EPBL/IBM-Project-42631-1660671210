@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- custom metadata starts here --->
+    <link rel="icon"
+      type="image/png"
+      href="https://app.mural.co/static/favicon-16x16.png"
+      sizes="16x16">
+    <meta property="og:site_name" content="mural.co" />
+    <meta property="og:title" content="A novel method for handwritten digit recognization system" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://app.mural.co/t/digitdetection1417/m/digitdetection1417/1663215672706/undefined" />
+    <meta property="og:image" content="https://app.mural.co/static/images/mural-thumb.svg" />
+    <meta property="og:image:width" content="450" />
+    <meta property="og:image:height" content="300" />
+    <meta property="twitter:site" content="@MURAL" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <meta name="slack-app-id" content="A4LV0TKR9">
+    <!-- custom metadata ends here --->
+  <link rel="alternate" type="application/json+oembed" href="https://app.mural.co/api/v0/murals/oembed?url=https%3A%2F%2Fapp.mural.co%2Ft%2Fdigitdetection1417%2Fm%2Fdigitdetection1417%2F1663215672706%2Fundefined&format=json" title="MURAL" />
+    <link rel="alternate" type="text/xml+oembed" href="https://app.mural.co/api/v0/murals/oembed?url=https%3A%2F%2Fapp.mural.co%2Ft%2Fdigitdetection1417%2Fm%2Fdigitdetection1417%2F1663215672706%2Fundefined&format=xml" title="MURAL" />
+<meta charset="utf-8">
+<meta content="ie=edge" http-equiv="x-ua-compatible">
+<meta name="pinterest" content="nopin">
+<link rel="manifest" href="/static/dist/manifest.json">
+<title>MURAL</title>
+<script>function preloadMuralFonts(){var o=new Set(["blambot-casual","blambot-pro","adelle","adelle-bold","lint-mccree","museo-slab","museo-slab-bold","proxima-nova","proxima-nova-semibold","proxima-nova-bold","proxima-nova-black","marker-felt","shark-water","murally-webfont"]);document.fonts.forEach((function(a){o.has(a.family)&&a.load()}))}window.MURAL_ENDPOINTS=fetch("/endpoints.json")</script>
+<script defer="defer" src="/static/dist/runtime.7dae9b0b191de5101e535b50c55baf01.js" integrity="sha256-YP87Wg3X0N/UcrYv80s15xrdibuxxVUhLFEsrR8A5j8= sha512-sfmegmygwAbZHsxYCj8TXt88zd6t8Htob19KB5dozEn6jpwFaMGWU6E234gzyHk4Ry9CjUE1jnUZjmIbrr66JA==" crossorigin="anonymous"></script><script defer="defer" src="/static/dist/vendor.dc686c5cda3ee766dda181d2d8ab16bd.js" integrity="sha256-e3eGy4jzerCX7/3xBKWF1//id1aPfjJ5RvibZE2ilVQ= sha512-ALhCKeONiQDCTePNI1Em8pUQZy0kMEr+PHJo7wV+JsYEIFVyvEdYIychwi9kk9YJi5Rroe6t272zvrPPtuXwvg==" crossorigin="anonymous"></script><script defer="defer" src="/static/dist/main.0d9e3236b7dc1d446a116610e5d8b04e.js" integrity="sha256-F4FODqCYYvXmI74Wk9coWn0KZXJLnWkVQVZ8L18x3Eo= sha512-QXJ165ftwnbNcUKzUKU/ipEDOtdGnx0n614Fbz+0Z554IW57nrITaELwTCZlSzK/VH9xdtMvf88HwZnSus+Dug==" crossorigin="anonymous"></script><link href="/static/dist/main.ef7e525be688bd4b14df6aa7af5b7e9e.css" rel="stylesheet" onload="preloadMuralFonts()" integrity="sha256-+XrnMprs/OrEyZsLuAVPQLl+cQgM/nRU8ec89hlNS8M= sha512-HLfkQcEgISecMIwEJhEbaVxHW+bDX2votNBNwfFI6qvR7TPrS9wW+Ko5TKG8kR3n+ext4So94LfDMDdOD/+R1w==" crossorigin="anonymous">
+<!-- version: ba98116445e7c6f0c2e84cbe5c53b16277a76157 -->
+<!-- OneTrust Cookies Consent Notice start for app.mural.co -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/03b96273-0ebc-43cb-8885-cdfaeadad5b9-test/OtAutoBlock.js" crossorigin="anonymous" integrity="sha256-CL/nN76tYRikAdxUV0CulXwS3fcYiq0PGgEgROxxu3Q= sha512-Mmjni3PGsMUFmE3twxr/g3wGkYzMcr4gpHX7pWAc5So+wbyOEh2zT65ggNrc9BjPtrlTgEl1DHXjmthYG27BvA=="></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" crossorigin="anonymous" integrity="sha256-u8RFa8qVAGaDqPCB0NLtZF7vWxTGLsoSxw9+HOwmwaA= sha512-9WU9JaTz3GF9YrbNpDwt4ozDmLJVTrCmQ+4f31u48b/xwjTNluZ3iaQU/kZh/+kY0133U0JikR11+0Rt9eAr9A==" data-language="en" type="text/javascript" charset="UTF-8" data-domain-script="03b96273-0ebc-43cb-8885-cdfaeadad5b9-test"></script>
+<script type="text/javascript">function OptanonWrapper(){}</script>
+<!-- OneTrust Cookies Consent Notice end for app.mural.co -->
+</head>
+<body>
+</body>
+</html>
