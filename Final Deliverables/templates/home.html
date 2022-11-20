@@ -1,0 +1,24 @@
+{%extends 'base.html'%}
+
+{%block title%}
+	HomePage
+{%endblock%}
+
+{%block style%}
+.nav-bar{
+	display : None;
+}
+{%endblock%}
+
+{%block content1%}
+<div id="home-sector">
+<div>
+<div class="ball" id="blueball">
+	<h1 id="title1">A NOVEL METHOD FOR HANDWRITTEN DIGIT RECOGNITION SYSTEM</h1>
+<a href="{{url_for('Authorize')}}"><button type="button" class="btn btn-btn-primary" id="getstarted">Get Started</button></a>
+</div>
+<div class="ball" id="grayball"></div>
+</div>
+<div id="Aiimage-box"><h1 class ="title2">Trucnket</h1></div>
+</div>
+{%endblock%}

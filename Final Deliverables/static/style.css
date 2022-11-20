@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&family=Syncopate:wght@700&display=swap');
+*{
+	margin: 0;
+
+}
+.nav-bar{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 2.5em;
+}
+.Title1{
+	font-size: 1.2em;
+	font-family: Arial;
+	font-weight: bolder;
+	color: #e9e9e9;
+}
+.Authorizebox{
+	display: block;
+}
+.uploadform{
+	display: block;
+}
+.body{
+	width: 100vw;
+}
+.ball{
+	width: 40vw;
+	height: 102vh;
+	display: flex;
+	flex-direction: column;
+	padding: 33vh 2vw;
+	border-radius: 0vh 100vh 100vh 0vh;
+
+
+}
+#blueball{
+	background-color: blue;
+	background-image: linear-gradient(to right, #045DE9 , #09C6F9);
+	box-shadow: 1px 1px 25px black;
+}
+#grayball{
+	position: relative;
+	z-index: -1;
+	background-color: #ffff4d;
+	margin-top: -45vh;
+	margin-left: 3vw;
+	box-shadow: 1px 1px 15px black;
+
+}
+#title1{
+	color: #FEFCFF;
+	text-shadow: 2px 2px 1px blue;
+	font-size: 2.5em;
+	font-weight: 400;
+	font-family: Syncopate;
+}
+#getstarted{
+	color: #FEFCFF;
+	margin-top: 2em;
+	border: 2px solid;
+	border-radius: 1em;
+	padding: 1em 2em;
+	border-color: #FEFCFF;
+	font-family: Syncopate;
+}
+#getstarted:hover{
+	background-color: #FEFCFF;
+	color: blue;
+	box-shadow: 3px 3px;
+}
+#home-sector{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+#Aiimage-box{
+	display: block;
+	height: 100vh;
+	width: 50%;
+	background-image: url("images/Ai.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: right;
+	padding-top: 1em;
+}
+.title2{
+	font-family: Pacifico;
+}
+#auth-sector{
+	margin-top: 3.8vh;
+	display: flex;
+	width: 90vw;
+	margin-left: 4.5vw;
+	justify-content: space-around;
+	align-items: center;
+}
+.Authorizebox{
+	padding: 1em 2em;
+	height: 100%;
+	max-height: 33.5vh;
+	max-width: 18vw;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px white;
+	color: white;
+
+}
+.line{
+	height: 93vh;
+	width: 0.5px;
+	display: block;
+	background-color: white;
+}
+.line1{
+	height: 46vh;
+	width: 0.5px;
+	display: block;
+	background-color: white;
+}
+.auth-title{
+	text-align: center;
+	font-size: 1.5em;
+}
+.auth-form label{
+	margin-bottom: 1.5em;
+}
+#firsthalf{
+	transition: 1s ease;
+}
+#passhalf{
+	position: relative;
+	margin-top: -21.4vh;
+	margin-left: 17vw;
+	transition: 1s;
+}
+#firsthalf.active{
+	margin-left: -17vw;
+}
+#passhalf.active{
+	margin-left: 0px;
+}
+.submit{
+	display: inline-block;
+}
+.whitescreen{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 33.5vh;
+	margin-top: -2.8vh;
+	font-size: 1.2em;
+	transition: 1s ease;
+	font-weight: bold;
+}
+#loginscreen:hover, #signupscreen:hover{
+
+	text-decoration-line: underline;
+}
+#Login:hover, #signup:hover{
+	color: black;
+	background-color: white;	
+}
+#loginscreen.active{
+	margin-top: -33.5vh;
+}
+#signupscreen.active{
+	margin-top: -33.5vh;
+}
+#basetitle{
+	font-size: 1.7em;
+	color: #045DE9;
+}
+#basetitle:hover{
+	text-decoration-line: underline;
+	display: inline-block;
+}
+.nav-btn{
+	border-radius: 1em;
+	padding: 0.4em 1.3em;
+}
+.blue{
+	color: #045DE9;
+	border-color: #045DE9;
+}
+.red{
+	color: red;
+	border-color: red;
+}
+.nav-btn:hover{
+	color: white;
+	box-shadow: 1px 1px 4px black;
+}
+.blue:hover{
+	background-color: #045DE9;
+}
+.red:hover{
+	background-color: red;
+}
+#upload-sector
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+.uploadform{
+	max-height: 30vh;
+	width: 25vw;
+	margin-left: 10vw;
+}
+#up-image{
+	background-image: url("images/robo.jpg");
+	background-size: cover;
+	height: 85vh;
+	width: 45vh;
+}
+#bline{
+	height: 40vh;
+	background-color: black;
+	margin-left: 30px;
+}
+#numbers{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 55vw;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+.numberbox{
+	text-align: center;
+	border-radius: 10em;
+	padding: 1em;
+	margin:1em 0em;
+}
+.number{
+	padding: 23px 30px;
+	border-radius: 30px;
+	color: white;
+	background-color: #09C6F9;
+	border-color:lightblue;
+	box-shadow: 0px 0px 10px lightblue, 0px 0px 8px white;
+	border: 1px solid;
+}
+#result{
+	margin-left: 1em;
+	font-size: 1.4em;
+	font-family: Syncopate;
+
+}
+.number:hover{
+	color: white;
+	box-shadow: 0px 0px 10px lightgreen, 0px 0px 8px white;
+	background-color: #07da63;
+}
+
+.upinputbox{
+	box-shadow: 0px 0px 4px black;
+	border: 1px solid;
+	margin: 3px;
+	padding: 1px;
+}

@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title%}
+	Authentication
+{% endblock %}
+{%block style%}
+body{
+		background-image: linear-gradient(to right, #045DE9 , #09C6F9);
+}
+.nav-bar{
+	display:none;
+}
+#title2{
+	color: white;
+	text-shadow: 1px 1px 13px black;
+}
+{%endblock%}
+{% block authentication %}
+
+<div id="auth-sector">
+<h1 class="title2">Trucnket</h1>
+<div class="line"></div>
+<div class="Authorizebox" id="Login">
+	<div class="active whitescreen" id="loginscreen" onclick="swipeup()" >Login></div>
+
+	<h1 class="auth-title">Login</h1><br>
+	
+	<form action="{{url_for('Authorize')}}" method="POST" id="loginform" class="auth-form">
+	
+		<input type="hidden" name="type" value="Login">
+	
+		<label>
+			<input type="type" name="email" class="form-control" placeholder="Username" required></label><br>
+		<label> 
+			<input type="password" name="password" class="form-control" placeholder="Password" required></label><br>
+		<input type="submit" value="Submit" class="btn btn-success submit">
+
+	</form>
+</div>
+<div class="line1"></div>
+
+
+<div class="Authorizebox" id="signup">
+
+	<div class="whitescreen" id="signupscreen" onclick="swipeup()" >Signup></div>	
+	<h1 class="auth-title">Signup</h1><br>
+	
+
+		
+		<form action="{{url_for('Authorize')}}" method="POST" id="signupform" class="auth-form" name="sform">
+			
+			<div id="firsthalf">
+					<input type="hidden" name="type" value="Signup">
+	
+				<label>
+					<input type="text" name="username" class="form-control" placeholder="Username" required></label><br>
+	
+				<label>
+					<input type="email" name="email" class="form-control" placeholder="Email" required></label><br>
+	
+				<button type="button" class="btn btn-success submit" onclick="moveinputsignup()">Next</button>
+			</div>
+		
+			<div id="passhalf">
+				<label>
+					<input type="password" name="password" class="form-control" placeholder="Password" required></label><br>
+				
+				<label>
+					<input type="password" name="cpassword" class="form-control" placeholder="Confirm Password" required></label><br>
+				<input type="submit" value="Submit" class="btn btn-success submit">
+			</div>
+
+	</form>
+
+</div>
+
+</div>
+<span style="color:white">{{msg}}</span>
+{% endblock %}

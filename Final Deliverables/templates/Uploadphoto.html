@@ -1,0 +1,46 @@
+{% extends 'base.html'%}
+
+{%block title%}
+A Novel Method For Handwritten Digit Recognization System
+{%endblock%}
+body{
+	overflow:hidden;
+}
+{%block style%}
+{%endblock%}
+{%block uploadform%}
+
+
+<div id="upload-sector">
+	<div style="display: flex; align-items: center;">
+<div class="uploadform">
+	<form method="POST" action="{{url_for('uploadpage')}}" enctype="multipart/form-data">
+
+		<input type="hidden" name="type" value="Upload">
+		<div class="custom-file">
+		<label class="form-label">UPLOAD IMAGE</label><br>
+		<input type="file" accept="image/*" name="image" required class="form-control-sm upinputbox" id="formFileLg">
+		</div>
+		<br><br>
+		<input type="submit" value="Submit" class="btn btn-success float-left select ">	
+		
+	</form>
+</div>
+<div class="line" id="bline"></div>
+</div>
+<div id="resultbox">
+	
+	<div id="numbers">
+		<span id="result">Result</span>
+		<div class="numberbox" id="1"><span id="one" class="number">{{bodyele}}</span></div>
+	</div>
+</div>
+<div id="up-image">
+	
+</div>
+</div>
+
+{%endblock%}
+
+
+{{msg}}
